@@ -4,11 +4,6 @@ namespace Ezh
 {
     internal class Program
     {
-        delegate int TransformColors(int[] population, int targetColor);
-
-        static Dictionary<int, TransformColors> colorTransformers;
-        
-
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
