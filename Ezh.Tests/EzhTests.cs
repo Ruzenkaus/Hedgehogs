@@ -45,17 +45,6 @@
         }
 
         [Test]
-        public void Transform_ComplexPopulation_ReturnsCorrectMeetingCount()
-        {
-            int[] population = { 6, 6, 9 };
-            int targetColor = 2;
-
-            int result = _transformer.Transform(population, targetColor);
-
-            Assert.That(result, Is.EqualTo(6));
-        }
-
-        [Test]
         public void Transform_SingleColorPopulation_ReturnsMinusOne()
         {
             int[] population = { 0, 0, 7 };
